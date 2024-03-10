@@ -11,14 +11,14 @@
     height: 100vh;
     width: 100vw;
 }
-.envelope-01 {
+.wrapper-01 {
     display: inline-block;
     margin-left: 136px;
     width: 60%;
     margin-top: 25%;
 }
 
-.envelope-02 {
+.wrapper-02 {
     display: inline-block;
     background-color: rgba(93, 93, 125, 0.16);
     height: 100vh;
@@ -90,14 +90,14 @@ button:active {
 }
 
 @media  screen and (max-width:900px) {
-    .envelope-01 {
+    .wrapper-01 {
         width: 100%;
         height: 50%;
         margin: 0;
         padding: 0;
     }
 
-    .envelope-02 {
+    .wrapper-02 {
         display: block;
         width: 100%;
         height: auto;
@@ -139,7 +139,7 @@ button{
 }
 
 @media  screen and (max-width:330px) {
-.envelope-02{
+.wrapper-02{
     height: 70%;
 }
 
